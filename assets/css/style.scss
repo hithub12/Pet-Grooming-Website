@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header 
+{
+    background-color: #fff;
+    box-shadow:  0 0 5px 1px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+    #navbar-logo
+    {
+        font-family: 'Knewave', cursive;
+        font-size: 30px;
+        color: #194955;
+        .grooming 
+        {
+            font-family: 'Knewave', cursive;
+            color: #f5cd03;
+        }
+        .fa-paw 
+        {
+            font-size: 25px;
+        }
+    }
+    .navbar-nav 
+    {
+        text-align: center;
+        .nav-item 
+        {
+            font-size: 13px;
+            text-transform: uppercase;
+            padding: 0 5px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            
+            .nav-link 
+            {
+                color: #000;
+            }
+            .nav-link:hover 
+            {
+                color: #f5cd03;
+            }
+        }
+    }
+
+
+    .navbar-toggler 
+    {
+        background: none;
+        border: none;
+        outline: none;
+    }
+}
+
+#landing-page 
+{
+    background-image: linear-gradient(rgba(245,205,3,0.7),rgba(245,205,3,0.7)),url("../img/petsss.jpg");
+    background-position: center;
+    background-size: cover;
+
+    .landing-page-content   
+    {
+        
+        padding: 50px 0 100px 0;
+        color: #194955;
+        
+        .landing-page-hero-text 
+        {
+            .petcare 
+            {
+                font-size: 19px;
+                font-weight: 600;
+                color: #fff;
+                letter-spacing: 1px;
+            }
+            .landing-page-hero-title
+            {
+                font-size: 45px;
+                padding-top: 30px;
+                span 
+                {
+                    font-family: 'Knewave', cursive;  
+                }
+            }
+            h3 
+            {
+                font-size: 25px;
+                padding-top: 10px;
+                font-family: 'Knewave', cursive;
+            }
+            p 
+            {
+                font-size: 16px;
+                padding-top: 10px;
+                line-height: 30px;
+            }
+            #contact-us-btn
+            {
+                padding: 15px 40px;
+                border: none;
+                background-color: #194955;
+                border-radius: 50px;
+                font-size: 16px;
+                color: #fff;
+                box-shadow: 0 0 8px 3px rgba(0,0,0,0.1);
+                font-weight: 600;
+                .fa-arrow-right 
+                {
+                    color: #fff;
+                    font-size: 15px;
+                }
+            }
+            #contact-us-btn:hover 
+            {
+                transition-duration: 0.3s;
+                transform: translateX(10px);
+            }
+        }
+    }
+}
+
+.we-take-care 
+{
+    padding: 40px;
+    background-color: #194955;
+    text-align: center;
+    h3 
+    {
+        font-size: 30px;
+        color: #fff;
+        font-family: 'Knewave', cursive;
+    }
+}
+
+#about-us 
+{
+    background-color: #fff;
+    .about-us-content    
+    {
+        padding: 90px 0 90px 0;
+        color: #194955;
+        text-align: center;
+        h1 
+        {
+            font-size: 40px;
+            font-family: 'Knewave', cursive;
+        }
+        h1:after
+        {
+            content: "";
+            background-color: #194955;
+            width: 50px;
+            height: 10px;
+            border-radius: 20px;
+            display: block;
+            margin: 10px auto;
+        }
+        p 
+        {
+            padding-top: 10px;
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+}
+
+
+#services
+{
+    .services-content
+    {
+        padding: 50px 0 100px 0;
+        color: #194955;
+        .services-hero-text 
+        {
+            text-align: center;
+            
+            h1 
+            {
+                font-size: 40px;
+                font-family: 'Knewave', cursive;
+            }
+            p 
+            {
+                font-size: 16px;
+                line-height: 30px;
+            }
+            p:after
+            {
+                content: "";
+                background-color: #194955;
+                width: 50px;
+                height: 10px;
+                border-radius: 20px;
+                display: block;
+                margin: 10px auto;
+            }
+        }
+
+        .services-list 
+        {
+            padding-top: 50px;
+
+            .services-item
+            {
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow:  0 0 8px 4px rgba(0,0,0,0.1);
+                margin-bottom: 50px;
+                
+                h2 
+                {
+                    font-family: 'Knewave', cursive;
+                }
+                .services-item-prices 
+                {
+                    font-size: 18px;
+                }
+                .services-item-inclusions 
+                {
+                    font-size: 18px;
+                }
+            }
+            .full-groom 
+            {
+                background-color: #194955;
+                color: #f5cd03;
+            }
+            .basic-grooming 
+            {
+                background-color: #148d8b;
+                color: #fff;
+            }
+            .bath-and-dry 
+            {
+                background-color: #f5cd03;
+                color: #194955;;
+            }
+        }
+    }
+}
+
+
+
+
+#location 
+{
+    line-height: 0;
+    padding-top: 70px;
+    iframe 
+    {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+
+#contacts 
+{
+    background-color: #f1f1f1;
+    .contacts-content 
+    {
+        text-align: center;
+        color: #194955; 
+        padding: 90px 0 90px 0;
+
+        h1 
+        {
+            font-size: 40px;
+            font-family: 'Knewave', cursive;
+        }
+        p 
+        {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        
+        .contacts-list 
+        {
+            li 
+            {
+                font-size: 25px;
+                list-style: none;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+
+footer 
+{
+    background-color: #194955;
+    .footer-content 
+    {
+        padding: 40px;
+        color: #fff;
+        text-align: center;
+        h1 
+        {
+            font-size: 40px;
+            font-family: 'Knewave', cursive;
+            .groom-footer 
+            {
+                color: #f5cd03;
+                font-family: 'Knewave', cursive;
+            }
+        }
+        p 
+        {
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+    }
+}

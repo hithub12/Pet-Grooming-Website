@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+header #navbar-logo {
+  font-family: 'Knewave', cursive;
+  font-size: 30px;
+  color: #194955;
+}
+
+header #navbar-logo .grooming {
+  font-family: 'Knewave', cursive;
+  color: #f5cd03;
+}
+
+header #navbar-logo .fa-paw {
+  font-size: 25px;
+}
+
+header .navbar-nav {
+  text-align: center;
+}
+
+header .navbar-nav .nav-item {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 0 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+  color: #000;
+}
+
+header .navbar-nav .nav-item .nav-link:hover {
+  color: #f5cd03;
+}
+
+header .navbar-toggler {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#landing-page {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 205, 3, 0.7)), to(rgba(245, 205, 3, 0.7))), url("../img/petsss.jpg");
+  background-image: linear-gradient(rgba(245, 205, 3, 0.7), rgba(245, 205, 3, 0.7)), url("../img/petsss.jpg"); 
+  background-position: center;
+  background-size: cover;
+}
+
+#landing-page .landing-page-content {
+  padding: 50px 0 100px 0;
+  color: #194955;
+}
+
+#landing-page .landing-page-content .landing-page-hero-text .petcare {
+  font-size: 19px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#landing-page .landing-page-content .landing-page-hero-text .landing-page-hero-title {
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+#landing-page .landing-page-content .landing-page-hero-text .landing-page-hero-title span {
+  font-family: 'Knewave', cursive;
+}
+
+#landing-page .landing-page-content .landing-page-hero-text h3 {
+  font-size: 25px;
+  padding-top: 10px;
+  font-family: 'Knewave', cursive;
+}
+
+#landing-page .landing-page-content .landing-page-hero-text p {
+  font-size: 16px;
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+#landing-page .landing-page-content .landing-page-hero-text #contact-us-btn {
+  padding: 15px 40px;
+  border: none;
+  background-color: #194955;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #fff;
+  -webkit-box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+}
+
+#landing-page .landing-page-content .landing-page-hero-text #contact-us-btn .fa-arrow-right {
+  color: #fff;
+  font-size: 15px;
+}
+
+#landing-page .landing-page-content .landing-page-hero-text #contact-us-btn:hover {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.we-take-care {
+  padding: 40px;
+  background-color: #194955;
+  text-align: center;
+}
+
+.we-take-care h3 {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Knewave', cursive;
+}
+
+#about-us {
+  background-color: #fff;
+}
+
+#about-us .about-us-content {
+  padding: 90px 0 90px 0;
+  color: #194955;
+  text-align: center;
+}
+
+#about-us .about-us-content h1 {
+  font-size: 40px;
+  font-family: 'Knewave', cursive;
+}
+
+#about-us .about-us-content h1:after {
+  content: "";
+  background-color: #194955;
+  width: 50px;
+  height: 10px;
+  border-radius: 20px;
+  display: block;
+  margin: 10px auto;
+}
+
+#about-us .about-us-content p {
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#services .services-content {
+  padding: 50px 0 100px 0;
+  color: #194955;
+}
+
+#services .services-content .services-hero-text {
+  text-align: center;
+}
+
+#services .services-content .services-hero-text h1 {
+  font-size: 40px;
+  font-family: 'Knewave', cursive;
+}
+
+#services .services-content .services-hero-text p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#services .services-content .services-hero-text p:after {
+  content: "";
+  background-color: #194955;
+  width: 50px;
+  height: 10px;
+  border-radius: 20px;
+  display: block;
+  margin: 10px auto;
+}
+
+#services .services-content .services-list {
+  padding-top: 50px;
+}
+
+#services .services-content .services-list .services-item {
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+#services .services-content .services-list .services-item h2 {
+  font-family: 'Knewave', cursive;
+}
+
+#services .services-content .services-list .services-item .services-item-prices {
+  font-size: 18px;
+}
+
+#services .services-content .services-list .services-item .services-item-inclusions {
+  font-size: 18px;
+}
+
+#services .services-content .services-list .full-groom {
+  background-color: #194955;
+  color: #f5cd03;
+}
+
+#services .services-content .services-list .basic-grooming {
+  background-color: #148d8b;
+  color: #fff;
+}
+
+#services .services-content .services-list .bath-and-dry {
+  background-color: #f5cd03;
+  color: #194955;
+}
+
+#location {
+  line-height: 0;
+  padding-top: 70px;
+}
+
+#location iframe {
+  width: 100%;
+  height: 450px;
+}
+
+#contacts {
+  background-color: #f1f1f1;
+}
+
+#contacts .contacts-content {
+  text-align: center;
+  color: #194955;
+  padding: 90px 0 90px 0;
+}
+
+#contacts .contacts-content h1 {
+  font-size: 40px;
+  font-family: 'Knewave', cursive;
+}
+
+#contacts .contacts-content p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#contacts .contacts-content .contacts-list li {
+  font-size: 25px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #194955;
+}
+
+footer .footer-content {
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+footer .footer-content h1 {
+  font-size: 40px;
+  font-family: 'Knewave', cursive;
+}
+
+footer .footer-content h1 .groom-footer {
+  color: #f5cd03;
+  font-family: 'Knewave', cursive;
+}
+
+footer .footer-content p {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=style.css.map */
